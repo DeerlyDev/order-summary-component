@@ -1,0 +1,28 @@
+:root {
+  /* Colors */
+  --color-page-bg: hsl(225 100% 94%);
+  --color-card-bg: hsl(0 0% 100%);
+  --color-primary: hsl(245 75% 52%);
+  --color-primary-soft: hsl(245 75% 52% / 0.15);
+
+  --color-text-main: hsl(223 47% 23%);
+  --color-text-muted: hsl(224 23% 55%);
+
+  /* Typography */
+  --font-base: system-ui, "apple-system", " Segoe UI", "Roboto", sans-serif;
+  --fs-body: 1rem;
+  --fs-title: 1.5rem;
+
+  /* Spacing */
+  --space-1: 0.5rem;
+  --space-2: 1rem;
+  --space-3: 1.5rem;
+  --space-4: 2rem;
+
+  /* Radius */
+  --radius-card: 3rem;
+  --radius-soft: 0.75rem;
+
+  /* Shadow */
+  --shadow-card: 0 20px 40px hsl(245 75% 52% / 0.15);
+}
