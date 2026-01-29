@@ -1,0 +1,33 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-base);
+  font-size: var(--fs-body);
+  background-image: url(/images/pattern-background-desktop.svg);
+  background-size: 100% auto;
+  background-repeat: no-repeat;
+  color: var(--color-text-main);
+}
+
+@media (max-width: 600px) {
+  body {
+    background-image: url(/images/pattern-background-mobile.svg);
+  }
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}

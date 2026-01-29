@@ -1,0 +1,91 @@
+.card {
+  background-color: var(--color-card-bg);
+  width: 100%;
+  max-width: 420px;
+  border-radius: var(--radius-card);
+  overflow: hidden;
+  box-shadow: var(--shadow-card);
+}
+
+.card-image {
+  width: 100%;
+}
+
+.card-content {
+  padding: var(--space-4);
+  text-align: center;
+}
+
+.card-title {
+  font-size: var(--fs-title);
+  margin-bottom: var(--space-2);
+}
+
+.card-description {
+  color: var(--color-text-muted);
+  margin-bottom: var(--space-3);
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-2);
+  background-color: var(--color-primary-soft);
+  padding: var(--space-2);
+  border-radius: var(--radius-soft);
+  margin-bottom: var(--space-3);
+}
+
+.plan-info {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  text-align: left;
+}
+
+.plan-info span {
+  display: block;
+  color: var(--color-text-muted);
+}
+
+.plan-change {
+  color: var(--color-primary);
+  font-weight: 600;
+}
+
+.plan-change:hover {
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.btn-primary {
+  width: 100%;
+  display: block;
+  border: none;
+  background-color: var(--color-primary);
+  color: white;
+  font-weight: 600;
+  padding: var(--space-2);
+  cursor: pointer;
+  border-radius: var(--radius-soft);
+  box-shadow: 0 10px 20px hsl(245 75% 52% / 0.3);
+}
+
+.btn-primary:hover {
+  opacity: 0.8;
+}
+
+.btn-link {
+  margin-top: var(--space-3);
+  background-color: none;
+  border: none;
+  color: var(--color-text-muted);
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.btn-link:hover {
+  color: var(--color-text-main);
+  background-color: transparent;
+}
